@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "1.jpg"},
-    {songName: "Apna Bana Le", filePath: "songs/2.mp3", coverPath: "2.jpg"},
-    {songName: "Atif Mashup", filePath: "songs/3.mp3", coverPath: "3.jpg"},
-    {songName: "Bairiya", filePath: "songs/4.mp3", coverPath: "5.jpg"},
-   {songName: "Yeh Wada raha", filePath: "songs/5.mp3", coverPath: "4.jpg"},
-    {songName: "Jo tum sath ho", filePath: "songs/6.mp3", coverPath: "6.jpg"},
-    {songName: "Muskurane", filePath: "songs/7.mp3", coverPath: "7.jpg"},
-    {songName: "Shiv ka das", filePath: "songs/8.mp3", coverPath: "8.jpg"},
-    {songName: "Arijit singh mashup", filePath: "songs/9.mp3", coverPath: "9.jpg"},
-    {songName: "Ram aye hai", filePath: "songs/10.mp3", coverPath: "10.jpg"},
+    {songName: "Warriyo - Mortals [NCS Release]", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "Apna Bana Le", filePath: "2.mp3", coverPath: "2.jpg"},
+    {songName: "Atif Mashup", filePath: "3.mp3", coverPath: "3.jpg"},
+    {songName: "Bairiya", filePath: "4.mp3", coverPath: "5.jpg"},
+   {songName: "Yeh Wada raha", filePath: "5.mp3", coverPath: "4.jpg"},
+    {songName: "Jo tum sath ho", filePath: "6.mp3", coverPath: "6.jpg"},
+    {songName: "Muskurane", filePath: "7.mp3", coverPath: "7.jpg"},
+    {songName: "Shiv ka das", filePath: "8.mp3", coverPath: "8.jpg"},
+    {songName: "Arijit singh mashup", filePath: "9.mp3", coverPath: "9.jpg"},
+    {songName: "Ram aye hai", filePath: "10.mp3", coverPath: "10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
